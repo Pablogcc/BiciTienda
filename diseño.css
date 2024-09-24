@@ -4,12 +4,15 @@
     box-sizing: border-box;
 }
 
-body {
+html, body {
     height: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
-    background-color: rgb(129, 131, 129);
+    background-color: rgb(211, 211, 211);
     font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    
 }
 
 
@@ -82,9 +85,14 @@ main {
 
 .fondo_imagen {
     position: relative;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     overflow: hidden;
+    display: flex;
+    background: url(fotos/fondos/fondodo.jpg) no-repeat center center/cover;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .fondo_imagen img {
@@ -225,4 +233,109 @@ footer p:last-child {
     margin-top: 30px;
     font-size: 0.9em;
     color: #bbb; /
+}
+
+
+/*Página de la Aventurera-----------------------------------------------------------------------*/
+
+.producto-contenedor{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.producto-imagen img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.producto-info {
+    max-width: 500px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.producto-titulo {
+    font-size: 2.2em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+
+
+.caracteristicas {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.caracteristicas li {
+    margin-bottom: 10px;
+}
+
+.producto-precio {
+    font-size: 1.7em;
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+
+.boton-compra {
+    padding: 12px 25px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    display: inline-block;
+}
+
+
+.producto-detalles {
+    margin-top: 50px;
+    padding: 40px 0;
+    max-width: 1200px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+.producto-detalles h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.producto-detalles p,
+.producto-detalles ul {
+    font-size: 1.1em;
+    color: #666;
+    line-height: 1.6;
+}
+
+.producto-detalles ul {
+    padding-left: 20px;
+}
+
+.review {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.review strong {
+    color: #333;
 }
