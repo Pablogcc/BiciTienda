@@ -22,6 +22,40 @@ header {
     padding: 20px;
 }
 
+.buscador {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.buscador form {
+    display: flex;
+}
+
+.buscador button {
+    padding: 5px 10px;
+    background-color: greenyellow;
+    border: none;
+    cursor: pointer;
+    color: #000;
+    margin-left: 5px;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.buscador button:hover {
+    background-color: #f6f6f6;
+}
+
+.campo-busqueda {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
 .inicio {
     display: flex;
     justify-content: space-between;
