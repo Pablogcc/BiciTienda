@@ -31,14 +31,14 @@ header {
 
 .buscador form {
     display: flex;
-    align-items: center; 
-    gap: 5px; 
+    align-items: center;
+    gap: 5px;
     margin: 0;
 }
 
 .buscador button {
     padding: 5px 10px;
-    background-color: greenyellow;
+    background-color: rgb(249,246,68,255);
     border: none;
     cursor: pointer;
     color: #000;
@@ -46,6 +46,7 @@ header {
     border-radius: 4px;
     font-size: 16px;
     transition: background-color 0.3s ease;
+
 }
 
 .buscador button:hover {
@@ -73,7 +74,7 @@ header {
 
     color: #fff;
     font-size: 24px;
-    color: greenyellow;
+    color: rgb(249,246,68,255);
 }
 
 
@@ -88,7 +89,7 @@ header {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
-    color: greenyellow;
+    color: rgb(249,246,68,255);
 
 }
 
@@ -107,7 +108,7 @@ header {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
-    color: greenyellow;
+    color: rgb(249,246,68,255);
 
 }
 
@@ -130,7 +131,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('fotos/fondos/fondodo.jpg');
+    background-image: url('fotos/fondos/ultifondo.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -163,9 +164,7 @@ main {
     text-align: center;
     font-size: 36px;
     margin: 40px auto;
-    color: greenyellow;
-    border: 2px solid greenyellow;
-    background-color: black;
+    color: rgb(0, 0, 0);
     width: 40%;
     text-align: center;
     border-radius: 20px;
@@ -176,6 +175,7 @@ main {
     flex-wrap: wrap;
     padding: 0 20px;
     margin-top: 40px;
+
 }
 
 .card {
@@ -186,6 +186,7 @@ main {
     border: 1px solid transparent;
     margin: 10px;
     box-sizing: border-box;
+
 
 }
 
@@ -268,6 +269,7 @@ footer p {
 footer .contacto-nosotros p {
     margin: 5px 0;
     font-size: 1em;
+    text-align: center;
 }
 
 footer p:last-child {
@@ -276,7 +278,7 @@ footer p:last-child {
     color: #bbb;/
 }
 
-.contacto-nosotros{
+.contacto-nosotros {
     text-align: center;
+    margin-left: 330px;
 }
-
