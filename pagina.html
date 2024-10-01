@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pedal Pro</title>
     <link rel="stylesheet" href="diseño.css">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
 </head>
 
 <body>
@@ -37,12 +39,27 @@
     <main>
         <!--Inicio del main-->
         <div class="fondo_imagen" id="inicio">
-            <!--<img src="fotos/fondos/fondodo.jpg" alt="Fondo del inicio">-->
+
 
         </div>
+        <!--Imagen en 3D-->
+        <div class="imagen3D">
+            <aside>
+                <model-viewer src="assets/bicicleta_v-44/scene.gltf" alt="Gafas de realidad virtual" auto-rotate
+                    camera-controls ar ios-src="assets/bicicleta_v-44/scene.gltf"></model-viewer>
+            </aside>
+        </div>
+
+
+
+
+
         <!--Card de las bicicletas-->
 
         <h1 class="titulos" id="bicicletas">Bicicletas</h1>
+
+
+
 
 
         <div class="cards-container">
@@ -351,7 +368,7 @@
             </div>
 
 
-           
+
 
         </footer>
 

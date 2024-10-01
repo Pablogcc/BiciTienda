@@ -137,6 +137,18 @@ main {
     background-repeat: no-repeat;
 }
 
+.imagen3d{
+    width: 100vh;
+    height: 100vh;
+    align-items: center;
+}
+
+
+
+
+
+
+
 
 
 .informacion {

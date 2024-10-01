@@ -1,0 +1,11 @@
+Model Information:
+* title:	Bicicleta V-44
+* source:	https://sketchfab.com/3d-models/bicicleta-v-44-35929efcebed4116b366b29c7ea0b8a3
+* author:	matiscalenghe (https://sketchfab.com/matiscalenghe)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Bicicleta V-44" (https://sketchfab.com/3d-models/bicicleta-v-44-35929efcebed4116b366b29c7ea0b8a3) by matiscalenghe (https://sketchfab.com/matiscalenghe) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
