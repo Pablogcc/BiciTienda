@@ -22,6 +22,77 @@ header {
     padding: 20px;
 }
 
+:root {
+    --main-bg-color: #333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containerr {
+    position: relative;
+    width: 100%;
+}
+
+.containerr section {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    background: var(--main-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerr section img {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerr section:nth-child(even) {
+    background: rgb(255, 140, 0);
+}
+
+.principio {
+    position: absolute;
+    color: rgb(190, 190, 0);
+    top: 18px;
+    font-size: 6em;
+    right: 40px;
+}
+
+.botones {
+    position: absolute;
+    font-size: 25px;
+    background-color: #2563EB;
+    border-radius: 0;
+    border: 2px solid black;
+    top: 150px;
+    right: 530px;
+    border-radius: 4px;
+    width: 170px;
+    color: white;
+    line-height: 33px;
+}
+
+.botonInicio {
+    text-decoration: none;
+    color: white;
+}
+
+
+.hola h2 {
+    color: green;
+}
+
 .buscador {
     display: flex;
     align-items: center;
@@ -38,7 +109,7 @@ header {
 
 .buscador button {
     padding: 5px 10px;
-    background-color: rgb(249,246,68,255);
+    background-color: rgb(249, 246, 68, 255);
     border: none;
     cursor: pointer;
     color: #000;
@@ -74,7 +145,7 @@ header {
 
     color: #fff;
     font-size: 24px;
-    color: rgb(249,246,68,255);
+    color: rgb(249, 246, 68, 255);
 }
 
 
@@ -89,7 +160,7 @@ header {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
-    color: rgb(249,246,68,255);
+    color: rgb(249, 246, 68, 255);
 
 }
 
@@ -108,7 +179,7 @@ header {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
-    color: rgb(249,246,68,255);
+    color: rgb(249, 246, 68, 255);
 
 }
 
@@ -137,7 +208,7 @@ main {
     background-repeat: no-repeat;
 }
 
-.imagen3d{
+.imagen3d {
     width: 100vh;
     height: 100vh;
     align-items: center;
