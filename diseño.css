@@ -208,6 +208,19 @@ main {
     background-repeat: no-repeat;
 }
 
+.imagen_carretera {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('fotos/fondos/carreras.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .imagen3d {
     width: 100vh;
     height: 100vh;
