@@ -98,13 +98,17 @@ header {
     align-items: center;
     margin-left: 0px;
     margin: 0;
+    border-radius: 4px;
+    
 }
 
 .buscador form {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
     margin: 0;
+    border-radius: 6px;
+    border: 2px solid #000000;
 }
 
 .buscador button {
@@ -128,7 +132,7 @@ header {
     padding: 5px;
     font-size: 16px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 6px;
 }
 
 
@@ -216,6 +220,32 @@ main {
     align-items: center;
     justify-content: center;
     background-image: url('fotos/fondos/carreras.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imagen-complementos {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('fotos/fondos/complementos.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imagen-familia {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('fotos/fondos/familia5.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
