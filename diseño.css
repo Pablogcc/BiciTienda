@@ -374,8 +374,8 @@ main {
 }
 
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #000000;
+    color: rgb(190, 190, 0);
     padding: 40px 20px;
     text-align: center;
     margin-top: 50px;
@@ -384,27 +384,31 @@ footer {
 footer h2 {
     font-size: 2em;
     margin-bottom: 20px;
+    color: rgb(190, 190, 0);
 }
 
 footer p {
     max-width: 800px;
     margin: 0 auto 20px;
     line-height: 1.6;
+    color: rgb(190, 190, 0);
 }
 
 footer .contacto-nosotros p {
     margin: 5px 0;
     font-size: 1em;
     text-align: center;
+    color: rgb(190, 190, 0);
 }
 
 footer p:last-child {
     margin-top: 30px;
     font-size: 0.9em;
-    color: #bbb;/
+    color: rgb(190, 190, 0);
 }
 
 .contacto-nosotros {
     text-align: center;
     margin-left: 330px;
+    color: rgb(190, 190, 0);
 }
